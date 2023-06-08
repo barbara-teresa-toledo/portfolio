@@ -1,0 +1,9 @@
+@import "../css/theme.css";
+
+#app {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: normal;
+  box-sizing: border-box;
+}
+

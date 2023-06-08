@@ -1,0 +1,10 @@
+@import "../css/theme.css";
+
+#app {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: normal;
+  padding: 0;
+  box-sizing: border-box;
+}
+
