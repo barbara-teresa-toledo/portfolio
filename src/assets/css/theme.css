@@ -1,6 +1,6 @@
 @import "../css/reset.css";
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;700&display=swap');
 
 :root {
     --surface-a: #202020;
@@ -13,8 +13,8 @@
     --text-color-secondary: #dedede;
     --primary-color: #780e35;
     --primary-color-text: #e8e8e8;
-    --font-family: Josefin Slab, sans-serif;
-    --surface-0: #040d19;
+    --font-family: Montserrat, sans-serif;
+    --surface-0: #0a0a0a;
     --surface-50: #1d2530;
     --surface-100: #363d47;
     --surface-200: #4f565e;
@@ -56,7 +56,7 @@
 }
 
 .p-component {
-    font-family: Josefin Slab, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 1rem;
     font-weight: normal
 }
@@ -90,7 +90,7 @@
 
 .p-link {
     font-size: 1rem;
-    font-family: Josefin Slab, sans-serif;
+    font-family: Montserrat, sans-serif;
     border-radius: 6px
 }
 
@@ -280,7 +280,7 @@
 }
 
 .p-autocomplete .p-autocomplete-multiple-container .p-autocomplete-input-token input {
-    font-family: Josefin Slab, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 1rem;
     color: #f5f5f5;
     padding: 0;
@@ -830,7 +830,7 @@
 }
 
 .p-chips .p-chips-multiple-container .p-chips-input-token input {
-    font-family: Josefin Slab, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 1rem;
     color: #f5f5f5;
     padding: 0;
@@ -1259,7 +1259,7 @@
 }
 
 .p-inputtext {
-    font-family: Josefin Slab, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 1rem;
     color: #f5f5f5;
     background: #181818;
@@ -7193,7 +7193,7 @@
 
 .p-terminal .p-terminal-input {
     font-size: 1rem;
-    font-family: Josefin Slab, sans-serif
+    font-family: Montserrat, sans-serif
 }
 
 .p-button-label {
@@ -7257,9 +7257,13 @@
 }
 
 /* Alterações */
+@font-face {
+    font-family: 'Roxborough';
+    src: url('../fonts/RoxboroughCF.ttf') format('truetype');
+}
+
 .titulo {
-    text-transform: uppercase;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Roxborough', sans-serif;
     letter-spacing: .1rem;
 }
 

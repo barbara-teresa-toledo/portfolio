@@ -4,5 +4,7 @@
   margin: 0;
   font-family: var(--font-family);
   font-weight: normal;
+  color: #fefefe;
+  background-color: #0a0a0a;
 }
 
